@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html><!--Crea un archivo index.html en el repositorio clonado con la estructura básica y un botón con el texto "Saludar"-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,6 +7,11 @@
     <title>Taller Eventos</title>
 </head>
 <body>
-    <input type="button" value="Saludar" onclick="alert('Hola!')">
+    <div style="padding: 5px; background-color: green;" id="eldiv"><!--Crea un div que contenga al botón. Modifica el estilo del div para que tenga padding de 5px y un fondo verde.-->
+        <input type="button" value="Saludar" onclick="alert('Hola!')"><!--Boton saludar, Agrega el código necesario en el atributo HTML onclick del botón (button) para que lance una alerta con el texto "Hola!"-->
+    </div>
+
+
+    <script src="eventos.js"></script> <!--Crea un nuevo archivo eventos.js, asocia el mismo al HTML.-->
 </body>
 </html>
